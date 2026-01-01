@@ -125,8 +125,8 @@ text-align: center;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
-    padding-right: 110px;
-    padding-left: 20px;
+    padding: 0 15px;
+    gap:15px;
     white-space: nowrap;
 }
 .google{
@@ -142,9 +142,10 @@ text-align: center;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
-    padding-right: 125px;
-    padding-left: 20px;
+    padding: 0 15px;
+    gap:15px;
     white-space: nowrap;
 
 }
+
 
