@@ -17,7 +17,7 @@ body{
 .container h1{
     color: black;
     padding:10px;
-   font-size: 40px;
+   font-size: 8vw;
    margin-bottom: 15px;
 
 }
@@ -107,5 +107,6 @@ text-align: center;
 #up{
     text-decoration: none;
 }
+
 
 
