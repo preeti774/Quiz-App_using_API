@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="localstyle.css">
+    <link rel="stylesheet" href="signupstyle.css">
 </head>
 <body>
     <div class="container">
@@ -12,19 +12,19 @@
         <h1>WELCOME TO TECH QUIZ</h1>
     </marquee>
     <div class="box">
-        <h1>Login</h1>
+        <h1>Signup</h1>
+        <input type="text" id="name"placeholder="Enter your name">
+        <p class="name1"></p>
         <input type="email" id="emailname"placeholder="Email">
         <p class="text"></p>
         <input type="password" id="passwordname"placeholder="Password">
         <p class="text2"></p>
-        <a href="" id="forgot"> Forgot password?</a>
-          <button id="login">Login</button>
-          <p class="mess">Don't have an account?<a href="signupindex.html" id="up">Signup</a></p>
-          <p class="or">Or</p>
-          <button class="facebook"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" id="face"alt="f">Login with facebook</button>
-         <button class="google"><img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" id="goog" alt="g"> Login with Google</button>
+        <input type="password" id="confirmname"placeholder="Confirm Password">
+        <p class="text3"></p>
+          <button id="signup">Signup</button>
+          <p class="mess">Already have an account?<a href="index.html" id="up">Login</a></p>
     </div>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js" ></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
     <script>
     const firebaseConfig = {
@@ -39,6 +39,6 @@
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
     </script>
-    <script src="localscript.js"></script>
+    <script src="signupjavascript.js"></script>
 </body>
 </html>

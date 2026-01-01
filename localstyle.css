@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    color: black;
+    padding:10px;
+   font-size: 40px;
+   margin-bottom: 15px;
+
+}
+.text{
+    color:red;
+    margin-bottom: 20px;
+}
+.text2{
+    color:red;
+    margin-bottom: 13px;
+}
+.box{
+    min-height:520px;
+    height:auto;
+    width: 450px;
+    background-color:white;
+    border-radius: 18px;
+    border: 3px solid black;
+   padding: 0px 30px 0px 30px;
+   margin-top: 0px;
+}
+.box h1{
+ font-size: 35px;
+ text-align: center;
+}
+#emailname{
+    margin-top: 0px;
+    width:100%;
+    height:40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 17px;
+    font-weight: bold;
+}
+#passwordname{
+    width:100%;
+    height:40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+}
+#forgot{
+    display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+#login{
+    height:50px;
+    width:100%;
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(81, 81, 211);
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.mess{
+text-align: center;
+}
+#up{
+    text-decoration: none;
+}
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 0px
+}
+.or::before{
+    content:"";
+    border-bottom: 1px solid black;
+    flex: 1;
+   margin-right: 10px;
+}
+.or::after{
+     content:"";
+     flex: 1;
+    border-bottom: 1px solid black;
+     margin-left: 10px;
+}
+#face{
+    height:20px;
+    width:20px;
+    
+}
+#goog{
+     height:20px;
+    width:20px;
+}
+.facebook{
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:50px;
+    margin-bottom: 7px;
+    border: 2px solid black;
+    background-color: rgb(37, 37, 121);
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+    padding-left: 20px;
+}
+.google{
+     align-items: center;
+    justify-content: center;
+    width:100%;
+    height:50px;
+    border: 2px solid black;
+    background-color: white;
+    color: #444;;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 125px;
+    padding-left: 20px;
+    
+}
