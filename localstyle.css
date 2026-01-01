@@ -127,6 +127,7 @@ text-align: center;
     justify-content: space-between;
     padding-right: 110px;
     padding-left: 20px;
+    white-space: nowrap;
 }
 .google{
      align-items: center;
@@ -143,6 +144,7 @@ text-align: center;
     justify-content: space-between;
     padding-right: 125px;
     padding-left: 20px;
-    
+    white-space: nowrap;
 
 }
+
