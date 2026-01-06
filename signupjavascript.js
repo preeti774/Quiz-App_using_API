@@ -68,7 +68,7 @@ signup.addEventListener("click",function(e){
     const localdata=JSON.parse(localStorage.getItem("key"))||[];
   const final=localdata.find((l)=>(useremail===l.email))
   if(final){
-    alert("This email is already Registered ! Please login")
+    alert("this email is already registered!please login")
     return;
   }
   else{
