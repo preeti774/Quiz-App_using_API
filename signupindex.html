@@ -8,9 +8,7 @@
 </head>
 <body>
     <div class="container">
-    <marquee behavior="alternate" direction="right" scrollamount="10">
-        <h1>WELCOME TO TECH QUIZ</h1>
-    </marquee>
+        <h1>Welcome to tech quiz</h1>
     <div class="box">
         <h1>Signup</h1>
         <input type="text" id="name"placeholder="Enter your name">
@@ -24,21 +22,6 @@
           <button id="signup">Signup</button>
           <p class="mess">Already have an account?<a href="index.html" id="up">Login</a></p>
     </div>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-    <script>
-    const firebaseConfig = {
-    apiKey: "AIzaSyDCBtTqNr6aoB4nRZzBcJREjinaGlO8jug",
-    authDomain: "mytechquiz-e5030.firebaseapp.com",
-    projectId: "mytechquiz-e5030",
-    storageBucket: "mytechquiz-e5030.firebasestorage.app",
-    messagingSenderId: "580405873552",
-    appId: "1:580405873552:web:97007dfe26e6207d99c115",
-    measurementId: "G-7EMFN2JNK7"
-  };
-  firebase.initializeApp(firebaseConfig);
-  const auth = firebase.auth();
-    </script>
     <script src="signupjavascript.js"></script>
 </body>
 </html>
