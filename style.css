@@ -4,52 +4,67 @@
     box-sizing: border-box;
 }
 body{
-    background :linear-gradient(135deg, #667eea 0%, #743fa8 100%);
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
+    background-color:#004d4d;
+     display: flex;
+     min-height: 100vh;
+     min-width: 100vw;
     justify-content: center;
-    margin-top: 20px; 
+    align-items: center;
 }
-.container{
-    min-height:170px;
+.app{
+    background-color: #ffffff;
+    width: 450px;
+    min-height: 400px;
     height: auto;
-    width: 90%;
-    max-width: 400px;
-    background:rgba(255,255,255, 0.35);
     border-radius: 25px;
-    padding: 18px;
-    padding-left: 30px;
-     margin: auto; /* y krne se y container screen k upr se gawab nhi ho jayega */ 
+    padding: 30px;
 }
-.heading1{
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 23px;
-}
-.data{
-    width:75%;
-    height:39px;
+.time{
+    height: 40px;
+    width: 80px;
     border-radius: 6px;
-    padding: 5px;
-    border:none;
+    background-color: #035f5f;
+    border: 3px solid black;
     font-weight: bold;
-    margin-bottom: 17px;
-    margin-right:6px;
+    color: white;
 }
-.add{
-    height:38px;
-    width: 75px;
-    color: black;
-    border-radius:6px;
-    border: none;
-    font-weight: bold;
+#special{
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
 }
-#first{
-    margin-right: 2px;
-} 
-.message{
-    margin-bottom: 10px;
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+    
+}
+.button{
+    height: 54px;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.last{
+    background-color:#004d4d ;
+    color: white;
+    font-size: 17px;
+    height: 45px;
+    width: 174px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 4px solid black;
+}
+.quiz h2{
+    padding-top: 15px ;
 }
