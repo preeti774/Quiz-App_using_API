@@ -15,9 +15,9 @@ body{
     flex-direction: column;
 }
 .container h1{
-    color: black;
+    color:white;
     padding:10px;
-   font-size: 8vw;
+   font-size: 40px;
    margin-bottom: 15px;
 
 }
@@ -30,15 +30,18 @@ body{
     margin-bottom: 13px;
 }
 .box{
-    min-height:520px;
+    min-height:440px;
     height:auto;
     width: 90%;
-    max-width:420px;
+   max-width: 350px;
     background-color:white;
     border-radius: 18px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
    padding: 0px 30px 0px 30px;
    margin-top: 0px;
+   background: rgba(255,255,255,0.2);
+   backdrop-filter: blur(10px);
+   box-shadow: 0 8px 32px rgba(0,0,0,0.1);
 }
 .box h1{
  font-size: 35px;
@@ -52,6 +55,7 @@ body{
     border-radius: 5px;
     padding: 17px;
     font-weight: bold;
+    margin-bottom: 12px;
 }
 #passwordname{
     width:100%;
@@ -60,12 +64,14 @@ body{
     border-radius: 5px;
     padding: 15px;
     font-weight: bold;
+    margin-bottom: 12px;
 }
 #forgot{
     display: block;
   text-align: center;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 #login{
     height:50px;
@@ -76,10 +82,11 @@ body{
     background-color:rgb(81, 81, 211);
     font-size: 16px;
     border-radius: 5px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 .mess{
 text-align: center;
+font-weight: bold;
 }
 #up{
     text-decoration: none;
@@ -125,9 +132,10 @@ text-align: center;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
-    gap:15px;
+    gap: 10px;
     white-space: nowrap;
+     padding-left: 5px;
+     padding-right: 80px;
 }
 .google{
      align-items: center;
@@ -142,11 +150,9 @@ text-align: center;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
-    gap:15px;
-    white-space: nowrap;
-
+    padding-left: 5px;
+     padding-right: 80px;
+      gap:10px;
+    padding-left: 5px;
+     padding-right: 90px;
 }
-
-
-
